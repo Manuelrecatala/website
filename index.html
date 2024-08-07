@@ -1,6 +1,72 @@
 <!doctype html>
 <html lang="en">
 <head>
+    *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#0A201C;
+    background-image: linear-gradient(45deg, #0A201C, #000000);
+
+}
+.navbar-left ul{
+    list-style: none;
+}
+.navbar-left ul li {
+   display: inline-block;
+    font-size: 29px;
+    padding-left: 15px;
+   
+}
+.navbar-left ul li a{
+
+    color: white;
+
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 900;
+    color: white !important;
+
+}
+.ifram-style iframe{
+    width: 640px !important;
+    height: 410px !important;
+    padding: 15px 0;
+
+}
+.ifram-style {
+    border-radius: 75px;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .ifram-style iframe{
+        width: 100% !important;
+        height: 360px !important;
+        padding:  0 ;
+
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 425.8px) {
+    .ifram-style iframe{
+        width: 350px !important;
+        height: 210px !important;
+        padding:  10px 0 ;
+
+    }
+}
+
+@media only screen and (min-width: 315px) and (max-width:374px) {
+    .ifram-style iframe{
+        width: 310px !important;
+        height: unset !important;
+        padding:  5px 0 ;
+
+    }
+}
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
