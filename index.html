@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manuel Recatalà</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Preloader Section -->
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
+    <header>
+      <div class="video-container">
+        <iframe
+          src="https://player.vimeo.com/video/769109091?background=1&autoplay=1&loop=1&byline=0&title=0"
+          frameborder="0"
+          allow="autoplay; loop"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="menu">
+        <h1><a href="work.html">work</a></h1>
+        <h1 onclick="toggleOverlay('about')">about</h1>
+      </div>
+
+      <!-- About Overlay Section -->
+      <div id="about-overlay" class="overlay hidden">
+        <div class="text-container">
+          <div class="icons">
+            <a target="_blank" href="https://vimeo.com/sljce"
+              ><img src="Images/vimeoiconwhite.png" alt=""
+            /></a>
+            <a target="_blank" href="https://www.instagram.com/sljce/">
+              <img src="Images/igiconwhite.png" alt=""
+            /></a>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+            necessitatibus.
+          </p>
+          <p class="email">
+            <a href="mailto:recatala.m@gmail.com">recatala.m@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <script>
+      function toggleOverlay(section) {
+        document.getElementById("about-overlay").classList.add("hidden");
+        document
+          .querySelector(".video-container iframe")
+          .classList.remove("blur");
+
+        if (section === "about") {
+          document.getElementById("about-overlay").classList.toggle("hidden");
+          document
+            .querySelector(".video-container iframe")
+            .classList.toggle("blur");
+        }
+      }
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          document.getElementById("preloader").style.display = "none";
+        }, 6000); // 7000 milliseconds = 7 seconds
+      });
+    </script>
+  </body>
+</html>
