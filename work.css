@@ -10,7 +10,7 @@ main {
   width: 100%;
   min-height: 100vh;
   padding: 0;
-  background-color: #0a201c;
+  background-color: #000000;
   background-image: linear-gradient(45deg, #0a201c, #000000);
 }
 
