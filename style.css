@@ -113,24 +113,20 @@ header {
 
 .text-container .icons img {
   width: 40px;
-  opacity: 0.8;
 }
 
 .text-container h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  opacity: 0.8;
 }
 .text-container p {
   margin-bottom: 2rem;
-  opacity: 0.8;
 }
 
 .text-container a {
   font-size: 1.2rem;
   text-decoration: none;
   color: #fff;
-  opacity: 0.8;
 }
 
 .text-container .email:hover {
