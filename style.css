@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Roboto", serif;
 }
+body {background-color: #000000;}
 
 body,
 html {
