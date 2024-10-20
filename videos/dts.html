@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Player</title>
+</head>
+<link rel="stylesheet" href="dts.css">
+<link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon">
+<body>
+
+  <div class="video-player">
+    <div class="video-container">
+      <div class="title">
+        <h3 class="video">VIDEO TITLE</h3>
+        <h3 class="category">CATEGORY</h3>
+      </div>
+      <!-- Removed background and autoplay for manual play -->
+      <iframe id="video-iframe" src="https://player.vimeo.com/video/1018292873?loop=1&byline=0&title=0" frameborder="0" allowfullscreen allow="loop"></iframe>
+    </div>
+
+    <div class="thumbnail-container">
+      <div class="thumbnail">
+        <!-- Adjust the image paths -->
+        <img id="thumb1" src="../images/DTS1.jpg" alt="Thumbnail 1">
+      </div>
+      <div class="thumbnail">
+        <img id="thumb2" src="../images/DTS2.jpg" alt="Thumbnail 2">
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-item"><a href="../index.html">HOME</a></div>
+    </footer>
+  </div>
+
+  <script>
+    // Get the video and thumbnail parameters from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const thumb1 = urlParams.get('thumb1'); 
+    const thumb2 = urlParams.get('thumb2'); 
+
+    // Set the thumbnail images if they exist
+    if (thumb1) {
+      document.getElementById('thumb1').src = `../thumbnail/${thumb1}`;
+    }
+
+    if (thumb2) {
+      document.getElementById('thumb2').src = `../thumbnail/${thumb2}`;
+    }
+  </script>
+
+</body>
+</html>
