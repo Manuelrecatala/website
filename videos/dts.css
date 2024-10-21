@@ -41,7 +41,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     width: 67%;
-    margin-bottom: 20px;
+    -bottom: 20px;
   }
   
   .thumbnail {
@@ -53,8 +53,8 @@
   }
   .footer {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    -top: 20px;
+    -bottom: 20px;
   }
   
   .footer-item {
@@ -71,10 +71,10 @@
   .title {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 10px;
+    -bottom: 10px;
   }
   .video {
-    margin-right: 150px;
+    -right: 300px;
   }
   a {
     text-decoration: none;
@@ -89,17 +89,17 @@
     .thumbnail-container {
       width: 100%;
       padding: 10px;
-      margin-top: -80px;
+      -top: -80px;
     }
     .video-container {
-      margin-bottom: 0;
+      -bottom: 0;
       padding: 10px;
       display: inline;
       align-items: self-start;
       justify-content: start;
     }
     .video {
-      margin-right: 200px;
+      -right: 200px;
     }
     .title {
       font-size: 0.7em;
@@ -107,7 +107,7 @@
     }
   
     iframe {
-      margin-top: -120px;
+      -top: -120px;
       padding: 0;
     }
   }
