@@ -99,7 +99,7 @@
       justify-content: start;
     }
     .video {
-      margin-right: 600px;
+      margin-right: 200px;
     }
     .title {
       font-size: 0.7em;
@@ -107,7 +107,7 @@
     }
   
     iframe {
-      margin-top: -350px;
+      margin-top: -120px;
       padding: 0;
     }
   }
