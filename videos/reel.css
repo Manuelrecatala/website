@@ -40,7 +40,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    width: 67%;
+    width: 66.5%;
     margin-bottom: 20px;
   }
   
@@ -87,7 +87,7 @@
       grid-template-columns: 1fr;
     }
     .thumbnail-container {
-      width: 97%;
+      width: 100%;
       padding: 10px;
       margin-top: -80px;
     }
