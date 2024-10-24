@@ -28,7 +28,7 @@
   
   .video-container {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   
   iframe {
@@ -87,7 +87,7 @@
       grid-template-columns: 1fr;
     }
     .thumbnail-container {
-      width: 99%;
+      width: 97%;
       padding: 10px;
       margin-top: -80px;
     }
