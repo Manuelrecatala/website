@@ -105,6 +105,6 @@ document.querySelectorAll('.gallery-item img').forEach((img) => {
     setTimeout(function () {
       document.querySelector(".menu").classList.remove("hidden");
       // document.querySelector(".menu").classList.remove("hidden2");
-    }, 3000);
+    }, 1000);
   };
 
