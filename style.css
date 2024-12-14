@@ -62,8 +62,8 @@ header {
   align-items: flex-end;
   justify-content: flex-end;
   padding: 2rem;
-  animation: fadeIn 3s ease;
-  transition: 3s;
+  animation: fadeIn 8s ease;
+  transition: 1s;
 }
 
 .menu h1 {
