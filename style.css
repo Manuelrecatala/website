@@ -128,10 +128,6 @@ header {
   width: 40px;
 }
 
-.text-container .profile img {
-  width: 200px;
-}
-
 .text-container h2 {
   font-size: 2rem;
   margin-bottom: 10px;
@@ -452,6 +448,7 @@ header {
 	}
 
 }
+
 
 
 
